@@ -22,6 +22,10 @@
 	<string>We need to take a picture of the place</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We need to store the picture of the place</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need to get your location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need to get your location</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>

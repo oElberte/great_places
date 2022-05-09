@@ -55,13 +55,13 @@ class _ImageInputState extends State<ImageInput> {
                   width: double.infinity,
                   fit: BoxFit.cover,
                 )
-              : Text('No image!'),
+              : const Text('No image!'),
         ),
         const SizedBox(width: 10),
         Expanded(
           child: TextButton.icon(
-            icon: Icon(Icons.camera),
-            label: Text('Take picture'),
+            icon: const Icon(Icons.camera),
+            label: const Text('Take picture'),
             onPressed: _takePicture,
           ),
         ),
